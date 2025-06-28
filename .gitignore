@@ -1,0 +1,17 @@
+# ملفات كبيرة مش عاوز أرفعها
+word2vec.model
+*.model
+*.bin
+*.h5
+*.pkl
+*.npy
+*.zip
+*.csv
+
+# كاش بايثون
+__pycache__/
+*.py[cod]
+
+# بيئة العمل لو موجودة
+venv/
+.env
