@@ -9,11 +9,7 @@ FILES = [
         "file_id": "1zKRiCSlb2V99xo97UXmJSyZ39omVK9D3",
         "output": "model_w2v.model"
     },
-    {
-        "filename": "stremlit_clustring & analysis.csv",
-        "file_id": "1JkQTiucDpmqmUrKQd6PIwhokjMHAri6F",
-        "output": "stremlit_clustring & analysis.csv"
-    },
+    
     {
         "filename": "stremlit.csv",
         "file_id": "1exwAtDvLgHthuHMUROr2OihQtgRC1B3Y",
