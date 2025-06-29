@@ -14,5 +14,6 @@ for filename, file_id in files.items():
         print(f"⬇️ Downloading {filename}...")
         url = f"https://drive.google.com/uc?id={file_id}"
         gdown.download(url, filename, quiet=False)
+        print(f"✅ Downloaded {filename}")
     else:
         print(f"✅ {filename} already exists.")
