@@ -21,7 +21,7 @@ st.title("📊 Job Cluster Analysis & Recommendation System")
 def load_data():
     try:
         # Load your main dataframe
-        df_final = pd.read_csv("stremlit_clustring & analysis.csv")
+        df_final = pd.read_csv("StremlitClustring.csv")
         
         # Ensure we have the expected columns
         required_columns = ['jobs', 'country', 'is_hourly']
