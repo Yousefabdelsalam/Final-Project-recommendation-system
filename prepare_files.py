@@ -1,14 +1,12 @@
 import gdown
 import os
 
-# === روابط Google Drive ===
 files = {
     "model_w2v.model": "1zKRiCSlb2V99xo97UXmJSyZ39omVK9D3",
-    "StremlitClustring.csv": "1kiH5q2p3a9uKp2xc9V9zOuJjiYaAhcjT",
+    "StremlitClustringReco.csv": "1t0EMBoSQNhCbb_BHDvWh_yCQGB7MBk3-",
     "streamlit.csv": "1exwAtDvLgHthuHMUROr2OihQtgRC1B3Y"
 }
 
-# === تحميل الملفات ===
 for filename, file_id in files.items():
     if not os.path.exists(filename):
         print(f"⬇️ Downloading {filename}...")
