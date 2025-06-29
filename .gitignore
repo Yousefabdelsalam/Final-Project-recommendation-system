@@ -5,13 +5,17 @@ word2vec.model
 *.h5
 *.pkl
 *.npy
-*.zip
 *.csv
+*.zip
+
+# استثناء الملفات اللي فعلاً هرفعها
+!prepare_files.py
 
 # كاش بايثون
 __pycache__/
-*.py[cod]
+*.pyc
+*.pyo
 
-# بيئة العمل لو موجودة
+# بيئة العمل
 venv/
 .env
