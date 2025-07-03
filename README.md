@@ -72,3 +72,6 @@ A supervised ML model that classifies whether a job is **hourly** or **fixed-pri
 - Full interactive interface with **multi-page navigation** in Streamlit.
 - All models pre-trained and saved for optimized performance.
 
+## Note:
+- The files of data and app is on my account drive.
+- In ``notebook NLP & Clustring`` you should dowenload it to view this.
